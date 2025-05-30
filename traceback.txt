@@ -1,24 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 59, in script
-    d "오늘 하루, 무엇을 했는지 말해보지."
-Exception: Sayer 'd' is not defined.
+  File "game/day/days/day1.rpy", line 23, in script
+    dios "잘 잤나, 꼬마?"
+Exception: Sayer 'dios' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 59, in script
-    d "오늘 하루, 무엇을 했는지 말해보지."
+  File "game/day/days/day1.rpy", line 23, in script
+    dios "잘 잤나, 꼬마?"
   File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
     Say.execute(self)
   File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 583, in execute
     who = eval_who(self.who, self.who_fast)
   File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 472, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'd' is not defined.
+Exception: Sayer 'dios' is not defined.
 
 Linux-4.18.0-553.32.1.el8_10.x86_64-x86_64-with-glibc2.28 x86_64
 Ren'Py 8.3.7.25031702
 Stigma 1.0
-Fri May 30 16:05:22 2025
+Fri May 30 16:41:28 2025

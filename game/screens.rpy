@@ -9,6 +9,25 @@ init offset = -1
 ## 스타일
 ################################################################################
 
+
+#스크린 추가
+
+screen hud():
+
+    frame:
+        background "#222A"
+        padding (12, 12, 12, 12) 
+        xminimum 300
+        yminimum 130
+        margin (6, 6)
+
+        vbox spacing 6:
+            text "🛐 신성력: [holiness]" color "#BBE1FA"
+            text "🧠 스트레스: [stress]" color "#FF6B6B"
+            text "😨 불안: [anxiety]" color "#FFD166"
+            text "🤍 디오스 신뢰도: [dios_trust]" color "#A0C4FF"
+
+
 style default:
     properties gui.text_properties()
     language gui.language

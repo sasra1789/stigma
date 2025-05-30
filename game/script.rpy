@@ -12,6 +12,12 @@ default stress = 0
 default anxiety = 0
 default dios_trust = 5
 
+# 캐릭터 정의
+define e = Character('나탈리아', color="#c8ffc8")
+define d = Character("???", what_prefix="“", what_suffix="”", window_xalign=0.0, what_color="#c99")
+
+init:
+    define slow_dissolve = Dissolve(1.5) 
 label start:
 
     scene black
@@ -19,7 +25,7 @@ label start:
 
     "당신에게 주어진 유예는 단 30일..."
 
-    jump day_loop
+    jump day_0
 
 
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 8: expected statement.
-    d
-     ^
+File "game/screens.rpy", line 17: expected a keyword argument or end of line.
+    style stat_bar_frame:
+                        ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Fri May 30 16:04:53 2025
+Fri May 30 16:29:24 2025

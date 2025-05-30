@@ -1,10 +1,10 @@
-2025-05-30 07:05:15 UTC
+2025-05-30 07:34:50 UTC
 Linux-4.18.0-553.32.1.el8_10.x86_64-x86_64-with-glibc2.28
 Ren'Py 8.3.7.25031702
 
 Early init took 0.03s
 Loading error handling took 0.02s
-Loading script took 0.06s
+Loading script took 0.05s
 Loading save slot metadata took 0.01s
 Loading persistent took 0.00s
 Running init code took 0.02s
@@ -29,7 +29,7 @@ Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.18s
+Interface start took 0.58s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1080)
@@ -39,12 +39,12 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 550.90.07'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(649, 365) drawable=(649, 365)
+Screen sizes: virtual=(1920, 1080) physical=(585, 329) drawable=(585, 329)
 Maximum texture size: 4096x4096
 
 Full traceback:
-  File "game/script.rpy", line 59, in script
-    d "오늘 하루, 무엇을 했는지 말해보지."
+  File "game/day/days/day0.rpy", line 20, in script
+    d "30일을 줄게, 나탈리아."
   File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
     Say.execute(self)
   File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 583, in execute
@@ -54,57 +54,46 @@ Full traceback:
 Exception: Sayer 'd' is not defined.
 
 While running game code:
-  File "game/script.rpy", line 59, in script
-    d "오늘 하루, 무엇을 했는지 말해보지."
+  File "game/day/days/day0.rpy", line 20, in script
+    d "30일을 줄게, 나탈리아."
 Exception: Sayer 'd' is not defined.
-Screen sizes: virtual=(1920, 1080) physical=(649, 369) drawable=(649, 369)
+Screen sizes: virtual=(1920, 1080) physical=(590, 332) drawable=(590, 332)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(651, 404) drawable=(651, 404)
+Screen sizes: virtual=(1920, 1080) physical=(877, 476) drawable=(877, 476)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(651, 463) drawable=(651, 463)
+Screen sizes: virtual=(1920, 1080) physical=(877, 475) drawable=(877, 475)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(606, 677) drawable=(606, 677)
+Screen sizes: virtual=(1920, 1080) physical=(861, 461) drawable=(861, 461)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(601, 690) drawable=(601, 690)
+Screen sizes: virtual=(1920, 1080) physical=(860, 460) drawable=(860, 460)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(601, 691) drawable=(601, 691)
+Screen sizes: virtual=(1920, 1080) physicalScreen sizes: virtual=(1920, 1080) physical=(1439, 552) drawable=(1439, 552)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(601, 692) drawable=(601, 692)
+Screen sizes: virtual=(1920, 1080) physical=(935, 624) drawable=(935, 624)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(729, 713) drawable=(729, 713)
+Screen sizes: virtual=(1920, 1080) physical=(906, 624) drawable=(906, 624)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(949, 775) drawable=(949, 775)
+Screen sizes: virtual=(1920, 1080) physical=(905, 623) drawable=(905, 623)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(982, 791) drawable=(982, 791)
+Screen sizes: virtual=(1920, 1080) physical=(910, 615) drawable=(910, 615)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(982, 789) drawable=(982, 789)
+Screen sizes: virtual=(1920, 1080) physical=(943, 578) drawable=(943, 578)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(958, 695) drawable=(958, 695)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(902, 489) drawable=(902, 489)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(876, 401) drawable=(876, 401)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(871, 398) drawable=(871, 398)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(821, 332) drawable=(821, 332)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(783, 294) drawable=(783, 294)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(782, 295) drawable=(782, 295)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(782, 296) drawable=(782, 296)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(782, 305) drawable=(782, 305)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(781, 325) drawable=(781, 325)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(781, 329) drawable=(781, 329)
+Screen sizes: virtual=(1920, 1080) physical=(947, 575) drawable=(947, 575)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 42.72s
+Early init took 140.30s
 Loading error handling took 0.01s
 Loading script took 0.04s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading Resetting cache.
+Early init took 361.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
 Loading save slot metadata took 0.01s
 Loading persistent took 0.00s
 Running init code took 0.01s
@@ -139,5 +128,613 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 550.90.07'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(585, 329) drawable=(585, 329)
+Screen sizes: virtual=(1920, 1080) physical=(599, 337) drawable=(599, 337)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day0.rpy", line 43, in script
+    show screen stat_bar
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 1987, in execute
+    self.call("execute")
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 1966, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/screen.py", line 1328, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen stat_bar is not known.
+
+
+While running game code:
+  File "game/day/days/day0.rpy", line 43, in script
+    show screen stat_bar
+  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+Exception: Screen stat_bar is not known.
+
+Screen sizes: virtual=(1920, 1080) physical=(610, 355) drawable=(610, 355)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(691, 468) drawable=(691, 468)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 390.45s
+Loading error handling took 0.01s
+Loading script took 0.04s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(691, 389) drawable=(691, 389)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day1.rpy", line 23, in script
+    dios "잘 잤나, 꼬마?"
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'dios' is not defined.
+
+While running game code:
+  File "game/day/days/day1.rpy", line 23, in script
+    dios "잘 잤나, 꼬마?"
+Exception: Sayer 'dios' is not defined.
+Screen sizes: virtual=(1920, 1080) physical=(691, 390) drawable=(691, 390)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(709, 459) drawable=(709, 459)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(713, 470) drawable=(713, 470)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(714, 476) drawable=(714, 476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(714, 488) drawable=(714, 488)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(715, 497) drawable=(715, 497)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(717, 500) drawable=(717, 500)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(780, 539) drawable=(780, 539)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(779, 538) drawable=(779, 538)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(701, 480) drawable=(701, 480)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(669, 464) drawable=(669, 464)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(667, 462) drawable=(667, 462)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(651, 443) drawable=(651, 443)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(630, 415) drawable=(630, 415)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(619, 404) drawable=(619, 404)
+Maximum texture size: 4096x4096
+55)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(790, 670) drawable=(790, 670)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(790, 673) drawable=(790, 673)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(805, 693) drawable=(805, 693)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(823, 706) drawable=(823, 706)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(859, 723) drawable=(859, 723)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(877, 730) drawable=(877, 730)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(877, 728) drawable=(877, 728)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(788, 576) drawable=(788, 576)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(747, 533) drawable=(747, 533)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(735, 521) drawable=(735, 521)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(730, 516) drawable=(730, 516)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(726, 513) drawable=(726, 513)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(671, 462) drawable=(671, 462)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(671, 461) drawable=(671, 461)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 217.33s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(671, 377) drawable=(671, 377)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day0.rpy", line 44, in script
+    "이 게임에서 당신은 다음과 같은 수치를 관리하게 됩니다:"
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 1471, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 1117, in do_display
+    display_say(who,
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 814, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/core.py", line 2748, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/screen.py", line 485, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 424, in visit_all
+    for d in self.visit():
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/layout.py", line 1376, in visit
+    self.style._visit_window(rv.append)
+  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
+  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 717, in renpy.style.build_style
+  File "style.pyx", line 714, in renpy.style.build_style
+  File "gen3-static/style_functions.pyx", line 1453, in style_functions.margin_property
+  File "include/style_common.pxi", line 30, in style_functions.index_0
+TypeError: 'int' object is not subscriptable
+
+While processing the margin property of anonymous style:
+  File "game/day/days/day0.rpy", line 44, in script
+    "이 게임에서 당신은 다음과 같은 수치를 관리하게 됩니다:"
+TypeError: 'int' object is not subscriptable
+Screen sizes: virtual=(1920, 1080) physical=(669, 382) drawable=(669, 382)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(702, 484) drawable=(702, 484)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(702, 485) drawable=(702, 485)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(702, 591) drawable=(702, 591)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(703, 598) drawable=(703, 598)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 232.38s
+Loading error handling took 0.01s
+Loading script took 0.04s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(703, 395) drawable=(703, 395)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day0.rpy", line 44, in script
+    "이 게임에서 당신은 다음과 같은 수치를 관리하게 됩니다:"
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 1471, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 1117, in do_display
+    display_say(who,
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 814, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/core.py", line 2748, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/screen.py", line 485, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 424, in visit_all
+    for d in self.visit():
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/layout.py", line 1376, in visit
+    self.style._visit_window(rv.append)
+  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
+  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 717, in renpy.style.build_style
+  File "style.pyx", line 714, in renpy.style.build_style
+  File "gen3-static/style_functions.pyx", line 1453, in style_functions.margin_property
+  File "include/style_common.pxi", line 30, in style_functions.index_0
+TypeError: 'int' object is not subscriptable
+
+While processing the margin property of anonymous style:
+  File "game/day/days/day0.rpy", line 44, in script
+    "이 게임에서 당신은 다음과 같은 수치를 관리하게 됩니다:"
+TypeError: 'int' object is not subscriptable
+Screen sizes: virtual=(1920, 1080) physical=(703, 396) drawable=(703, 396)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(703, 435) drawable=(703, 435)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(703, 461) drawable=(703, 461)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(703, 464) drawable=(703, 464)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(703, 465) drawable=(703, 465)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 292.26s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(703, 395) drawable=(703, 395)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day0.rpy", line 45, in script
+    "이 게임에서 당신은 다음과 같은 수치를 관리하게 됩니다:"
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 1471, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 1117, in do_display
+    display_say(who,
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/character.py", line 814, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/core.py", line 2748, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/screen.py", line 485, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/displayable.py", line 424, in visit_all
+    for d in self.visit():
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/layout.py", line 1376, in visit
+    self.style._visit_window(rv.append)
+  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
+  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 717, in renpy.style.build_style
+  File "style.pyx", line 714, in renpy.style.build_style
+  File "gen3-static/style_functions.pyx", line 1453, in style_functions.margin_property
+  File "include/style_common.pxi", line 30, in style_functions.index_0
+TypeError: 'int' object is not subscriptable
+
+While processing the margin property of anonymous style:
+  File "game/day/days/day0.rpy", line 45, in script
+    "이 게임에서 당신은 다음과 같은 수치를 관리하게 됩니다:"
+TypeError: 'int' object is not subscriptable
+Resetting cache.
+Early init took 310.96s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(702, 395) drawable=(702, 395)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day0.rpy", line 72, in script
+    jump day_1
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 1712, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'day_1'.
+
+While running game code:
+  File "game/day/days/day0.rpy", line 72, in script
+    jump day_1
+ScriptError: could not find label 'day_1'.
+Screen sizes: virtual=(1920, 1080) physical=(704, 395) drawable=(704, 395)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(790, 504) drawable=(790, 504)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(792, 506) drawable=(792, 506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 338.59s
+Loading error handling took 0.01s
+Loading script took 0.04s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(792, 446) drawable=(792, 446)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day0.rpy", line 72, in script
+    jump day1
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 1712, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'day1'.
+
+While running game code:
+  File "game/day/days/day0.rpy", line 72, in script
+    jump day1
+ScriptError: could not find label 'day1'.
+Resetting cache.
+Early init took 389.43s
+Loading error handling took 0.01s
+Loading script took 0.04s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(792, 446) drawable=(792, 446)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/day/days/day1.rpy", line 5, in script
+    show screen hud
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 1987, in execute
+    self.call("execute")
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 1966, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/display/screen.py", line 1328, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen hud is not known.
+
+
+While running game code:
+  File "game/day/days/day1.rpy", line 5, in script
+    show screen hud
+  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+Exception: Screen hud is not known.
+
