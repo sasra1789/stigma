@@ -1,0 +1,143 @@
+2025-05-30 07:05:15 UTC
+Linux-4.18.0-553.32.1.el8_10.x86_64-x86_64-with-glibc2.28
+Ren'Py 8.3.7.25031702
+
+Early init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(649, 365) drawable=(649, 365)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 59, in script
+    d "오늘 하루, 무엇을 했는지 말해보지."
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/rapa/renpy_practive/renpy-8.3.7-sdk/renpy/ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'd' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 59, in script
+    d "오늘 하루, 무엇을 했는지 말해보지."
+Exception: Sayer 'd' is not defined.
+Screen sizes: virtual=(1920, 1080) physical=(649, 369) drawable=(649, 369)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(651, 404) drawable=(651, 404)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(651, 463) drawable=(651, 463)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(606, 677) drawable=(606, 677)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(601, 690) drawable=(601, 690)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(601, 691) drawable=(601, 691)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(601, 692) drawable=(601, 692)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(729, 713) drawable=(729, 713)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(949, 775) drawable=(949, 775)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(982, 791) drawable=(982, 791)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(982, 789) drawable=(982, 789)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(958, 695) drawable=(958, 695)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(902, 489) drawable=(902, 489)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(876, 401) drawable=(876, 401)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(871, 398) drawable=(871, 398)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(821, 332) drawable=(821, 332)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(783, 294) drawable=(783, 294)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(782, 295) drawable=(782, 295)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(782, 296) drawable=(782, 296)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(782, 305) drawable=(782, 305)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(781, 325) drawable=(781, 325)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(781, 329) drawable=(781, 329)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 42.72s
+Loading error handling took 0.01s
+Loading script took 0.04s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rapa/.renpy/backups/Stigma':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 550.90.07'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(585, 329) drawable=(585, 329)
+Maximum texture size: 4096x4096
