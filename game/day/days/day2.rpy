@@ -22,7 +22,7 @@ label day2:
             $ dios_trust -= 1
 
     "철문이 또다시 열리고, 그가 들어선다."
-
+    
     play sound "sfx/door_open.ogg"
     show d_neutral at left with moveinleft
 
