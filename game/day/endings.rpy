@@ -66,7 +66,7 @@ d "근데 괜찮아. 난 네 그 비참한 얼굴이 좋거든."
 
 "— 침묵 속에 길들여지다 —"
 
-jumpthe_end
+jump the_end
 
 
 label ending_neutral:

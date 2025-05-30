@@ -51,7 +51,7 @@ label day28:
         "그의 말에 대꾸한다":
             "지금껏 미뤄왔던 한 마디. 이제는 말할 수 있다."
             nvl clear
-            nvl window
+            window hide
             narrator "나는... 네가 싫어."
             nvl hide
             d "오, 드디어 혀를 움직였네."

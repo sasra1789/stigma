@@ -35,7 +35,7 @@ label day5:
         "처음으로 소리친다":
             "목이 갈라질 듯 아픈 소리가 튀어나온다."
             nvl clear
-            nvl window
+            window hide
             narrator "그만—"
             nvl hide
             d "……"
